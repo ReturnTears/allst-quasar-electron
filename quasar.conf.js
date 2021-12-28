@@ -92,7 +92,7 @@ module.exports = configure(function (ctx) {
       // (like functional components as one of the examples),
       // you can manually specify Quasar components/directives to be available everywhere:
       //
-      // components: [],
+      components: ['QBtn'],
       // directives: [],
 
       // Quasar plugins

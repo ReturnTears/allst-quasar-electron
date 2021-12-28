@@ -6,6 +6,7 @@
   "author": "returntears",
   "private": true,
   "scripts": {
+    "dev": "quasar dev -m electron",
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0"
   },
