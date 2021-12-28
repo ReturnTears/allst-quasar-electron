@@ -34,6 +34,6 @@ git branch -M main
 git remote add origin https://github.com/ReturnTears/allst-quasar-electron.git
 git push -u origin main
 
-
-
-
+git remote add origin https://github.com/ReturnTears/allst-quasar-electron.git
+git branch -M main
+git push -u origin main
