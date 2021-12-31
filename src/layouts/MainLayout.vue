@@ -28,7 +28,7 @@
         <q-item-label
           header
         >
-          Essential Links
+          功能列表
         </q-item-label>
 
         <EssentialLink
@@ -53,43 +53,43 @@ const linksList = [
     title: 'Docs',
     caption: 'quasar.dev',
     icon: 'school',
-    link: 'https://quasar.dev'
+    link: 'quasar'
   },
   {
     title: 'Github',
-    caption: 'github.com/quasarframework',
+    caption: 'quasarframework',
     icon: 'code',
-    link: 'https://github.com/quasarframework'
+    link: 'quasarframework'
   },
   {
     title: 'Discord Chat Channel',
     caption: 'chat.quasar.dev',
     icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    link: 'chat'
   },
   {
     title: 'Forum',
     caption: 'forum.quasar.dev',
     icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    link: 'forum'
   },
   {
     title: 'Twitter',
     caption: '@quasarframework',
     icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    link: 'twitter'
   },
   {
     title: 'Facebook',
     caption: '@QuasarFramework',
     icon: 'public',
-    link: 'https://facebook.quasar.dev'
+    link: 'facebook'
   },
   {
     title: 'Quasar Awesome',
     caption: 'Community Quasar projects',
     icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
+    link: 'awesome'
   }
 ]
 

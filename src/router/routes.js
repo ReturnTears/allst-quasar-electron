@@ -13,6 +13,10 @@ const routes = [
   {
     path: '/:catchAll(.*)*',
     component: () => import('pages/Error404.vue')
+  },
+  {
+    path: '/quasar.dev',
+    component: () => import('pages/view/docs.vue')
   }
 ]
 
