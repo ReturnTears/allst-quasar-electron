@@ -29,6 +29,7 @@ function createWindow () {
     }
   })
 
+  // console.log(process.env.APP_URL)
   mainWindow.loadURL(process.env.APP_URL)
 
   if (process.env.DEBUGGING) {

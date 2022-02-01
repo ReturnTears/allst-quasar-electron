@@ -15,8 +15,11 @@ const routes = [
     component: () => import('pages/Error404.vue')
   },
   {
-    path: '/quasar.dev',
-    component: () => import('pages/view/docs.vue')
+    path: '/quasar',
+    component: () => import('pages/view/docs.vue'),
+    children: [
+      { path: '', component: () => import('pages/Index.vue') }
+    ]
   }
 ]
 
