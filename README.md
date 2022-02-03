@@ -27,6 +27,18 @@ quasar build
 ### Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 
+### 依赖包安装
+1、安装axios
+npm install axios
+Axios 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js 中
+中文官方文档：http://axios-js.com/zh-cn/docs/
+
+
+2、安装qs
+qs 是一个增加了一些安全性的查询字符串解析和序列化字符串的库。
+npm install qs
+
+
 ###
 echo "# allst-quasar-electron" >> README.md
 git init
