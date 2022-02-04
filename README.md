@@ -51,3 +51,9 @@ git push -u origin main
 git remote add origin https://github.com/ReturnTears/allst-quasar-electron.git
 git branch -M main
 git push -u origin main
+
+
+### Quasar组件使用注意事项
+1、使用QTable报错No data available
+在新版本中应该使用rows属性，将data属性替换为rows属性
+
