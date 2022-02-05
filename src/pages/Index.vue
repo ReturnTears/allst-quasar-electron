@@ -63,7 +63,10 @@
     :columns="columns"
     row-key="name"
   />
+  <br />
   <q-btn @click="pagination.page++" label="Next page" />
+  <bar-chart></bar-chart>
+  <pie-chart></pie-chart>
   </q-layout>
 </template>
 
@@ -71,8 +74,15 @@
 import { defineComponent } from 'vue'
 import tableData from 'assets/table-data'
 
+// import LineChart from 'components/LineChart'
+// import BarChart from 'components/BarChart'
+// import PieChart from 'components/PieChart'
+
 export default defineComponent({
   name: 'PageIndex',
+  components: {
+    // BarChart, PieChart
+  },
   data () {
     return {
       tableData,

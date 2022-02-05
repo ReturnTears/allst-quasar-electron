@@ -38,6 +38,10 @@ Axios 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js �
 qs 是一个增加了一些安全性的查询字符串解析和序列化字符串的库。
 npm install qs
 
+3、安装echarts
+npm install echarts vue-echarts
+echarts 5 中文官方文档：https://echarts.apache.org/zh/index.html
+
 
 ###
 echo "# allst-quasar-electron" >> README.md
