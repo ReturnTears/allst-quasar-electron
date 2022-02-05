@@ -65,8 +65,8 @@
   />
   <br />
   <q-btn @click="pagination.page++" label="Next page" />
-  <bar-chart></bar-chart>
-  <pie-chart></pie-chart>
+  <!-- <bar-chart></bar-chart>
+  <pie-chart></pie-chart> -->
   </q-layout>
 </template>
 
